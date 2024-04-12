@@ -4,7 +4,7 @@
 
 The toolkit directory contains our core code.
 
-Display Diff-Finder results
+Display DiffFinder results
 
 ```
 python show_result.py
