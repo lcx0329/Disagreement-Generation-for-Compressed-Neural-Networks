@@ -24,15 +24,7 @@ Apparently, the DFLARE algorithm produces the lowest quality images. The DiffCha
 
 
 ## Additional Experiments
-Apart from the content of the research paper report, we conducted three additional experiments to validate the performance of multiple models on the ImageNet dataset. Due to time and computational resource constraints, we used pre-trained models provided by the official website. Specifically, we used the following models:
-
-1. **ResNet50** and its corresponding quantized model: [PyTorch Vision - ResNet50](https://pytorch.org/vision/stable/models.html?highlight=pretrain)
-2. **Inception** and its corresponding quantized model: [PyTorch Vision - Inception](https://pytorch.org/vision/stable/models.html?highlight=pretrain)
-3. **ResNeXt-101** and its corresponding quantized model: [PyTorch Vision - ResNeXt-101](https://pytorch.org/vision/stable/models.html?highlight=pretrain)
-
-
-
-**Comparing Original and Generated Images on ImageNet**:
+Besides the content of the research papers, we also compared the original images and generated images on ImageNet:
 
 ![Alt text](df_resnext101.png)
 
