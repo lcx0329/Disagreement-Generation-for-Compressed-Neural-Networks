@@ -30,23 +30,6 @@ Apart from the content of the research paper report, we conducted three addition
 2. **Inception** and its corresponding quantized model: [PyTorch Vision - Inception](https://pytorch.org/vision/stable/models.html?highlight=pretrain)
 3. **ResNeXt-101** and its corresponding quantized model: [PyTorch Vision - ResNeXt-101](https://pytorch.org/vision/stable/models.html?highlight=pretrain)
 
-Here are the detailed performances of each model in the tests:
-
-| Model Name       | Parameter Settings | Iterations | Number of Images | PSNR Value         | SSIM Value         | Success Rate (SR) (%) |
-| ---------------- | ------------------ | ---------- | ---------------- | ------------------ | ------------------ | --------------------- |
-| ResNet50Qmodel   | 1                  | 50         | 1000             | 48.836             | 0.997              | 99.2                  |
-| InceptionQmodel  | 1                  | 200        | 1000             | 46.629 | 0.994 | 97.4                  |
-| ResNext101Qmodel | 1                  | 200        | 1000             | 50.869  | 0.998 | 99.4                  |
-
-**Success Rate (SR) Analysis**:
-
-
-- Diff-Finder demonstrated exceptional performance across all models, with success rates ranging from 97.4% to 99.4%.
-- Particularly in the ResNext101Qmodel, Diff-Finder excelled, achieving an impressive success rate of 99.4%.
-
-**Image Quality (SSIM & PSNR) Analysis**:
-
-- Overall, the three quantized models all produced high-quality images.
 
 
 **Comparing Original and Generated Images on ImageNet**:
